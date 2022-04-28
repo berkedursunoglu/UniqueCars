@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UniqueCars</string>
+    <string name="todo">TODO</string>
+    <string name="ara_markas">Araç Markası</string>
+    <string name="ara_modeli">Araç Modeli</string>
+    <string name="ara_model_y_l">Araç Model Yılı</string>
+    <string name="kaydet">Kaydet</string>
+</resources>
