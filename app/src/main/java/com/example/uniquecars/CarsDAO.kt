@@ -52,7 +52,7 @@ class CarsDAO(context: Context) : SQLiteOpenHelper(context, "UniqCar", null, 1) 
         db.close()
     }
 
-    fun update(name: String, model: String, year: Int, id: Int) {
+    fun update(name: String, model: String, year: String, id: Int) {
         val db = writableDatabase
         val values = ContentValues()
         values.put("carname", name)
